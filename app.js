@@ -251,5 +251,5 @@ app.delete("/card/:card_number", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("Server started");
+  console.log("Yay! Server started");
 });
